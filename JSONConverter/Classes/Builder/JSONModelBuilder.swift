@@ -67,7 +67,7 @@ class JSONModelBuilder: BuilderProtocol {
         }
         
         //
-        var propertyIsOptionalFunc = """
+        let propertyIsOptionalFunc = """
                                      \n+ (BOOL)propertyIsOptional:(NSString *)propertyName {
                                          return YES;
                                      }

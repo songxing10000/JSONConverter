@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F737EBB4FFE856B529C4398 /* libPods-JSONConverter-JSONConverterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5A7192A2087722969A9C45 /* libPods-JSONConverter-JSONConverterUITests.a */; };
-		34B0EFCEC2C64176E67E2F4F /* libPods-JSONConverterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F42965596B11F33826F53 /* libPods-JSONConverterTests.a */; };
+		048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */; };
 		4A926928B4DE1C314D350C1E /* libPods-JSONConverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD32F63385B3C64CFA14DD /* libPods-JSONConverter.a */; };
 		7B2E9EEB2760F3B000151B99 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E9EEA2760F3B000151B99 /* BuilderProtocol.swift */; };
 		7B2E9EED2760FA3300151B99 /* ObjCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E9EEC2760FA3300151B99 /* ObjCBuilder.swift */; };
@@ -33,7 +32,6 @@
 		7B9FD5E62764FAA200CFD0A0 /* JavaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FD5E52764FAA200CFD0A0 /* JavaBuilder.swift */; };
 		7BD7FEDA202AC7C10003AE80 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD7FED9202AC7C10003AE80 /* Content.swift */; };
 		7BD7FEDC202AC7EB0003AE80 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD7FEDB202AC7EB0003AE80 /* Property.swift */; };
-		7BDF2972202BDB7D00B7E2F5 /* JSONConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF2971202BDB7D00B7E2F5 /* JSONConverterUITests.swift */; };
 		7BE925A0282BF0F500C32A3A /* MJExtensionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9259F282BF0F500C32A3A /* MJExtensionBuilder.swift */; };
 		8E1945EA2508A3CE00E7CDCC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1945E92508A3CE00E7CDCC /* Enums.swift */; };
 		8E1B82972508B22B00E8CA95 /* NSTextView+LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B82962508B22B00E8CA95 /* NSTextView+LineNumberRulerView.swift */; };
@@ -52,31 +50,14 @@
 		8E68571D22850F4800DCDF2E /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68571C22850F4800DCDF2E /* Notification+Extension.swift */; };
 		8E7CE0B1277581DB0044F018 /* GolangBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CE0B0277581DB0044F018 /* GolangBuilder.swift */; };
 		8EB0531424FCDABF00B96D79 /* NSColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0531324FCDABF00B96D79 /* NSColor+Extension.swift */; };
-		8ED4E1162755B81F004A682A /* JSONConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4E1152755B81F004A682A /* JSONConverterTests.swift */; };
 		8EE44C73276301FE0024D730 /* HandyJSONBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44C72276301FE0024D730 /* HandyJSONBuilder.swift */; };
 		8EE44C752763024D0024D730 /* CodableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44C742763024D0024D730 /* CodableBuilder.swift */; };
 		F7EE48E729E68A8500AE5B5F /* JSONModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE48E629E68A8500AE5B5F /* JSONModelBuilder.swift */; };
 		F7EE48E929E68A8C00AE5B5F /* SwiftYYModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE48E829E68A8C00AE5B5F /* SwiftYYModelBuilder.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7BDF2974202BDB7D00B7E2F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B4B5EA2201B87A10098712B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B4B5EA9201B87A10098712B;
-			remoteInfo = JSONConverter;
-		};
-		8ED4E1182755B81F004A682A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B4B5EA2201B87A10098712B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B4B5EA9201B87A10098712B;
-			remoteInfo = JSONConverter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExAutoCodableBuilder.swift; sourceTree = "<group>"; };
 		05AB8A8E6D68BAB20085C224 /* Pods-JSONConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter.release.xcconfig"; path = "Target Support Files/Pods-JSONConverter/Pods-JSONConverter.release.xcconfig"; sourceTree = "<group>"; };
 		284ACF227ADB7DDD725B0195 /* Pods-JSONConverter-JSONConverterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverter-JSONConverterUITests/Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		534B6E6532347C4C75A6C372 /* Pods-JSONConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverter/Pods-JSONConverter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,9 +92,6 @@
 		7B9FD5E52764FAA200CFD0A0 /* JavaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaBuilder.swift; sourceTree = "<group>"; };
 		7BD7FED9202AC7C10003AE80 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		7BD7FEDB202AC7EB0003AE80 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
-		7BDF296F202BDB7C00B7E2F5 /* JSONConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BDF2971202BDB7D00B7E2F5 /* JSONConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverterUITests.swift; sourceTree = "<group>"; };
-		7BDF2973202BDB7D00B7E2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BE9259F282BF0F500C32A3A /* MJExtensionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJExtensionBuilder.swift; sourceTree = "<group>"; };
 		8D3F42965596B11F33826F53 /* libPods-JSONConverterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSONConverterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1945E92508A3CE00E7CDCC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -134,9 +112,6 @@
 		8E7CE0B0277581DB0044F018 /* GolangBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolangBuilder.swift; sourceTree = "<group>"; };
 		8E9E8D09268202C300F778D0 /* JSONConverter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONConverter-Bridging-Header.h"; sourceTree = "<group>"; };
 		8EB0531324FCDABF00B96D79 /* NSColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Extension.swift"; sourceTree = "<group>"; };
-		8ED4E1132755B81F004A682A /* JSONConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ED4E1152755B81F004A682A /* JSONConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverterTests.swift; sourceTree = "<group>"; };
-		8ED4E1172755B81F004A682A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE44C72276301FE0024D730 /* HandyJSONBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyJSONBuilder.swift; sourceTree = "<group>"; };
 		8EE44C742763024D0024D730 /* CodableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBuilder.swift; sourceTree = "<group>"; };
 		A5616FC0D45A20ACDD4996AD /* Pods-JSONConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverterTests.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverterTests/Pods-JSONConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,22 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A926928B4DE1C314D350C1E /* libPods-JSONConverter.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BDF296C202BDB7C00B7E2F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F737EBB4FFE856B529C4398 /* libPods-JSONConverter-JSONConverterUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED4E1102755B81F004A682A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34B0EFCEC2C64176E67E2F4F /* libPods-JSONConverterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +159,7 @@
 				8E2EE4162761B1D600FABCA0 /* FlutterBuilder.swift */,
 				8EE44C72276301FE0024D730 /* HandyJSONBuilder.swift */,
 				8EE44C742763024D0024D730 /* CodableBuilder.swift */,
+				048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */,
 				7B9FD5E52764FAA200CFD0A0 /* JavaBuilder.swift */,
 				8E7CE0B0277581DB0044F018 /* GolangBuilder.swift */,
 				7B41FC9C2827F225007DBD49 /* KakaJSONBuilder.swift */,
@@ -241,8 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				7B45DAE9202A95BE007E8D56 /* JSONConverter */,
-				7BDF2970202BDB7D00B7E2F5 /* JSONConverterUITests */,
-				8ED4E1142755B81F004A682A /* JSONConverterTests */,
 				7B4B5EAB201B87A10098712B /* Products */,
 				25B861C7B63951D05DE37B14 /* Pods */,
 				B286FCCA305CDB4D252943BF /* Frameworks */,
@@ -253,8 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				7B4B5EAA201B87A10098712B /* JSONConverter.app */,
-				7BDF296F202BDB7C00B7E2F5 /* JSONConverterUITests.xctest */,
-				8ED4E1132755B81F004A682A /* JSONConverterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,15 +238,6 @@
 				8E542C30251350080053C1E0 /* Export.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		7BDF2970202BDB7D00B7E2F5 /* JSONConverterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7BDF2971202BDB7D00B7E2F5 /* JSONConverterUITests.swift */,
-				7BDF2973202BDB7D00B7E2F5 /* Info.plist */,
-			);
-			path = JSONConverterUITests;
 			sourceTree = "<group>";
 		};
 		7BF1DD2D24FBA3930090B531 /* Controller */ = {
@@ -343,15 +290,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		8ED4E1142755B81F004A682A /* JSONConverterTests */ = {
-			isa = PBXGroup;
-			children = (
-				8ED4E1152755B81F004A682A /* JSONConverterTests.swift */,
-				8ED4E1172755B81F004A682A /* Info.plist */,
-			);
-			path = JSONConverterTests;
-			sourceTree = "<group>";
-		};
 		8EE44C762763312A0024D730 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,45 +336,6 @@
 			productReference = 7B4B5EAA201B87A10098712B /* JSONConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7BDF296E202BDB7C00B7E2F5 /* JSONConverterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BDF2978202BDB7D00B7E2F5 /* Build configuration list for PBXNativeTarget "JSONConverterUITests" */;
-			buildPhases = (
-				27FF31990257AB50F1F0DFCE /* [CP] Check Pods Manifest.lock */,
-				7BDF296B202BDB7C00B7E2F5 /* Sources */,
-				7BDF296C202BDB7C00B7E2F5 /* Frameworks */,
-				7BDF296D202BDB7C00B7E2F5 /* Resources */,
-				CFD5614EC07B530498C15585 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BDF2975202BDB7D00B7E2F5 /* PBXTargetDependency */,
-			);
-			name = JSONConverterUITests;
-			productName = JSONConverterUITests;
-			productReference = 7BDF296F202BDB7C00B7E2F5 /* JSONConverterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		8ED4E1122755B81F004A682A /* JSONConverterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8ED4E11C2755B81F004A682A /* Build configuration list for PBXNativeTarget "JSONConverterTests" */;
-			buildPhases = (
-				DC4F461EF08D19C117C896CF /* [CP] Check Pods Manifest.lock */,
-				8ED4E10F2755B81F004A682A /* Sources */,
-				8ED4E1102755B81F004A682A /* Frameworks */,
-				8ED4E1112755B81F004A682A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8ED4E1192755B81F004A682A /* PBXTargetDependency */,
-			);
-			name = JSONConverterTests;
-			productName = JSONConverterTests;
-			productReference = 8ED4E1132755B81F004A682A /* JSONConverterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -451,23 +350,12 @@
 					7B4B5EA9201B87A10098712B = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
 						};
-					};
-					7BDF296E202BDB7C00B7E2F5 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1160;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 7B4B5EA9201B87A10098712B;
-					};
-					8ED4E1122755B81F004A682A = {
-						CreatedOnToolsVersion = 12.5.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 7B4B5EA9201B87A10098712B;
 					};
 				};
 			};
@@ -486,8 +374,6 @@
 			projectRoot = "";
 			targets = (
 				7B4B5EA9201B87A10098712B /* JSONConverter */,
-				7BDF296E202BDB7C00B7E2F5 /* JSONConverterUITests */,
-				8ED4E1122755B81F004A682A /* JSONConverterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -507,45 +393,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BDF296D202BDB7C00B7E2F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED4E1112755B81F004A682A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27FF31990257AB50F1F0DFCE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JSONConverter-JSONConverterUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2CA6A2FA811EA66474914587 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,224 +434,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		CFD5614EC07B530498C15585 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JSONConverter-JSONConverterUITests/Pods-JSONConverter-JSONConverterUITests-resources.sh",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/Highlighter/highlight.min.js",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/a11y-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/a11y-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/agate.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/an-old-hope.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/androidstudio.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/arduino-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/arta.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/ascetic.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-cave-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-cave-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-dune-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-dune-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-estuary-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-estuary-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-forest-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-forest-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-heath-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-heath-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-lakeside-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-lakeside-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-plateau-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-plateau-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-savanna-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-savanna-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-seaside-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-seaside-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-sulphurpool-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atelier-sulphurpool-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atom-one-dark-reasonable.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atom-one-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/atom-one-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/brown-paper.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/codepen-embed.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/color-brewer.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/darcula.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/darkula.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/default.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/docco.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/dracula.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/far.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/foundation.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/github-gist.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/github.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/gml.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/googlecode.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/grayscale.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/gruvbox-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/gruvbox-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/hopscotch.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/hybrid.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/idea.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/ir-black.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/isbl-editor-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/isbl-editor-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/kimbie.dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/kimbie.light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/lightfair.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/magula.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/mono-blue.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/monokai-sublime.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/monokai.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/nord.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/obsidian.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/ocean.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/paraiso-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/paraiso-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/pojoaque.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/purebasic.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/qtcreator_dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/qtcreator_light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/railscasts.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/rainbow.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/routeros.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/school-book.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/shades-of-purple.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/solarized-dark.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/solarized-light.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/sunburst.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/tomorrow-night-blue.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/tomorrow-night-bright.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/tomorrow-night-eighties.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/tomorrow-night.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/tomorrow.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/vs.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/vs2015.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/xcode.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/xt256.min.css",
-				"${PODS_ROOT}/Highlightr/Pod/Assets/styles/zenburn.min.css",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/highlight.min.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a11y-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a11y-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/agate.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an-old-hope.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/androidstudio.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arduino-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arta.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ascetic.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-cave-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-cave-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-dune-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-dune-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-estuary-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-estuary-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-forest-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-forest-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-heath-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-heath-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-lakeside-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-lakeside-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-plateau-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-plateau-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-savanna-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-savanna-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-seaside-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-seaside-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-sulphurpool-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atelier-sulphurpool-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atom-one-dark-reasonable.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atom-one-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/atom-one-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/brown-paper.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/codepen-embed.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/color-brewer.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/darcula.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/darkula.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/default.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/docco.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dracula.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/far.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/foundation.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/github-gist.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/github.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gml.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/googlecode.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/grayscale.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gruvbox-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gruvbox-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hopscotch.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hybrid.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idea.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ir-black.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/isbl-editor-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/isbl-editor-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kimbie.dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/kimbie.light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lightfair.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/magula.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mono-blue.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/monokai-sublime.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/monokai.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nord.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/obsidian.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ocean.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/paraiso-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/paraiso-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pojoaque.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/purebasic.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/qtcreator_dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/qtcreator_light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/railscasts.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/rainbow.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/routeros.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/school-book.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/shades-of-purple.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/solarized-dark.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/solarized-light.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sunburst.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tomorrow-night-blue.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tomorrow-night-bright.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tomorrow-night-eighties.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tomorrow-night.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tomorrow.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vs.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vs2015.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/xcode.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/xt256.min.css",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zenburn.min.css",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONConverter-JSONConverterUITests/Pods-JSONConverter-JSONConverterUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC4F461EF08D19C117C896CF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JSONConverterTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		FD35618A2BA0B2630D493C27 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1015,6 +647,7 @@
 				8E2EE4132761A4F800FABCA0 /* SwiftyJSONBuilder.swift in Sources */,
 				7B45DB00202A95BF007E8D56 /* MainWindowController.swift in Sources */,
 				8E2A9D0224F9201F00F03DCB /* SettingViewController.swift in Sources */,
+				048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */,
 				8E1B82972508B22B00E8CA95 /* NSTextView+LineNumberRulerView.swift in Sources */,
 				8E542C2F25130C160053C1E0 /* PanGestureIndicatorView.swift in Sources */,
 				7B41FC9D2827F225007DBD49 /* KakaJSONBuilder.swift in Sources */,
@@ -1047,36 +680,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BDF296B202BDB7C00B7E2F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BDF2972202BDB7D00B7E2F5 /* JSONConverterUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED4E10F2755B81F004A682A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8ED4E1162755B81F004A682A /* JSONConverterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7BDF2975202BDB7D00B7E2F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B4B5EA9201B87A10098712B /* JSONConverter */;
-			targetProxy = 7BDF2974202BDB7D00B7E2F5 /* PBXContainerItemProxy */;
-		};
-		8ED4E1192755B81F004A682A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B4B5EA9201B87A10098712B /* JSONConverter */;
-			targetProxy = 8ED4E1182755B81F004A682A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B45DAF7202A95BE007E8D56 /* MainMenu.xib */ = {
@@ -1222,9 +826,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = JSONConverter/JSONConverter.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9F2MXW99UQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = JSONConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1247,9 +852,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = JSONConverter/JSONConverter.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9F2MXW99UQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = JSONConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1260,79 +866,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "JSONConverter/JSONConverter-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		7BDF2976202BDB7D00B7E2F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 284ACF227ADB7DDD725B0195 /* Pods-JSONConverter-JSONConverterUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JSONConverterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanmo.JSONConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = JSONConverter;
-			};
-			name = Debug;
-		};
-		7BDF2977202BDB7D00B7E2F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7812C44FB05AF4F67F19D831 /* Pods-JSONConverter-JSONConverterUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JSONConverterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanmo.JSONConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = JSONConverter;
-			};
-			name = Release;
-		};
-		8ED4E11A2755B81F004A682A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5616FC0D45A20ACDD4996AD /* Pods-JSONConverterTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WYH624WR9E;
-				INFOPLIST_FILE = JSONConverterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bosma.JSONConverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONConverter.app/Contents/MacOS/JSONConverter";
-			};
-			name = Debug;
-		};
-		8ED4E11B2755B81F004A682A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF634CD0F54405DD58FAB7E4 /* Pods-JSONConverterTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WYH624WR9E;
-				INFOPLIST_FILE = JSONConverterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bosma.JSONConverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONConverter.app/Contents/MacOS/JSONConverter";
 			};
 			name = Release;
 		};
@@ -1353,24 +886,6 @@
 			buildConfigurations = (
 				7B4B5EB9201B87A10098712B /* Debug */,
 				7B4B5EBA201B87A10098712B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BDF2978202BDB7D00B7E2F5 /* Build configuration list for PBXNativeTarget "JSONConverterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BDF2976202BDB7D00B7E2F5 /* Debug */,
-				7BDF2977202BDB7D00B7E2F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8ED4E11C2755B81F004A682A /* Build configuration list for PBXNativeTarget "JSONConverterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8ED4E11A2755B81F004A682A /* Debug */,
-				8ED4E11B2755B81F004A682A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

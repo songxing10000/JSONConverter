@@ -25,6 +25,7 @@ class JSONProcesser {
                                                SwiftyJSONBuilder(),
                                                ObjectMapperBuilder(),
                                                CodableBuilder(),
+                                               ExAutoCodableBuilder(),
                                                KakaJSONBuilder(),
                                                HandyJSONBuilder(),
                                                SwiftYYModelBuilder()]
