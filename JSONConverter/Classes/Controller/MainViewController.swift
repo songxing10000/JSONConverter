@@ -313,6 +313,29 @@ class MainViewController: NSViewController {
         let alert = NSAlert(error: error)
         alert.runModal()
     }
+    @IBAction func addDocBtnAction(_ sender: NSButton) {
+        guard let parentWindow = view.window else {
+            return
+        }
+        let sb = NSStoryboard(name: "AddDocVC", bundle: nil)
+        guard let vc = sb.instantiateController(withIdentifier: "AddDocVC") as? NSViewController else {
+            return
+        }
+        
+        vc.view.frame = parentWindow.frame
+        parentWindow.contentViewController?.presentAsModalWindow(vc)
+    }
+    @IBAction func addProtocolBtnAction(_ sender: NSButton) {
+        guard let parentWindow = view.window else {
+            return
+        }
+        let sb = NSStoryboard(name: "AddProtocolVC", bundle: nil)
+        guard let vc = sb.instantiateController(withIdentifier: "AddProtocolVC") as? NSViewController else {
+            return
+        }
+        vc.view.frame = parentWindow.frame
+        parentWindow.contentViewController?.presentAsModalWindow(vc)
+    }
 }
 
 extension MainViewController {

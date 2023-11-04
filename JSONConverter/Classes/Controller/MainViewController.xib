@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -251,6 +251,26 @@
                                 <outlet property="delegate" destination="-2" id="96K-2m-nL3"/>
                             </connections>
                         </textField>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2ra-6V-6ko">
+                            <rect key="frame" x="95" y="8" width="62" height="32"/>
+                            <buttonCell key="cell" type="push" title="协议" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Iuf-VW-jtI">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="addProtocolBtnAction:" target="-2" id="7I2-Mk-znZ"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Yai-MX-rzD">
+                            <rect key="frame" x="164" y="8" width="74" height="32"/>
+                            <buttonCell key="cell" type="push" title="加注释" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zYm-7M-2PC">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="addDocBtnAction:" target="-2" id="hzV-gC-rNZ"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="6TB-jR-Ead" firstAttribute="centerY" secondItem="axb-Mu-38g" secondAttribute="centerY" id="0EB-Xe-sez"/>
@@ -258,15 +278,19 @@
                         <constraint firstItem="N2j-s3-kwM" firstAttribute="centerY" secondItem="Rs5-vR-4VE" secondAttribute="centerY" id="6AU-2K-3Pi"/>
                         <constraint firstItem="N2j-s3-kwM" firstAttribute="leading" secondItem="zBe-Rp-cI7" secondAttribute="trailing" id="70Q-zi-LUf"/>
                         <constraint firstItem="d6h-R6-EFn" firstAttribute="centerY" secondItem="JNB-NE-r1E" secondAttribute="centerY" id="7i1-EW-VWM"/>
+                        <constraint firstItem="2ra-6V-6ko" firstAttribute="centerY" secondItem="N2j-s3-kwM" secondAttribute="centerY" id="CHe-xK-VVW"/>
                         <constraint firstItem="d6h-R6-EFn" firstAttribute="leading" secondItem="axb-Mu-38g" secondAttribute="trailing" constant="25" id="F0b-mx-ycg"/>
                         <constraint firstItem="axb-Mu-38g" firstAttribute="leading" secondItem="6TB-jR-Ead" secondAttribute="trailing" constant="25" id="Qya-gL-2aW"/>
                         <constraint firstAttribute="height" constant="50" id="SAX-n5-KNq"/>
+                        <constraint firstItem="Yai-MX-rzD" firstAttribute="leading" secondItem="2ra-6V-6ko" secondAttribute="trailing" constant="21" id="Ue8-aa-vDg"/>
                         <constraint firstItem="zHm-8W-mp8" firstAttribute="leading" secondItem="JNB-NE-r1E" secondAttribute="trailing" constant="25" id="Yce-G1-5dc"/>
+                        <constraint firstItem="Yai-MX-rzD" firstAttribute="centerY" secondItem="2ra-6V-6ko" secondAttribute="centerY" id="YsV-5D-U0t"/>
                         <constraint firstItem="zBe-Rp-cI7" firstAttribute="top" secondItem="Rs5-vR-4VE" secondAttribute="top" id="ZAf-f1-Ce1"/>
                         <constraint firstItem="JNB-NE-r1E" firstAttribute="centerY" secondItem="zHm-8W-mp8" secondAttribute="centerY" id="eZx-9t-zM2"/>
                         <constraint firstItem="zBe-Rp-cI7" firstAttribute="leading" secondItem="Rs5-vR-4VE" secondAttribute="leading" id="ftP-av-yKY"/>
                         <constraint firstItem="zHm-8W-mp8" firstAttribute="centerY" secondItem="Rs5-vR-4VE" secondAttribute="centerY" id="gEI-lV-qMU"/>
                         <constraint firstItem="axb-Mu-38g" firstAttribute="centerY" secondItem="JNB-NE-r1E" secondAttribute="centerY" id="jVg-rK-c2d"/>
+                        <constraint firstItem="2ra-6V-6ko" firstAttribute="leading" secondItem="N2j-s3-kwM" secondAttribute="trailing" constant="15" id="mAz-VX-vzh"/>
                         <constraint firstAttribute="trailing" secondItem="zHm-8W-mp8" secondAttribute="trailing" constant="14" id="mrc-wa-6Xw"/>
                         <constraint firstItem="JNB-NE-r1E" firstAttribute="leading" secondItem="d6h-R6-EFn" secondAttribute="trailing" constant="25" id="wPz-p3-coD"/>
                     </constraints>

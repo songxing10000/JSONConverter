@@ -28,7 +28,7 @@ enum LangType: Int {
     // the value is highlightr language
     var language: String! {
         switch self {
-        case .Swift, .HandyJSON, .SwiftyJSON, .KakaJSON, .ObjectMapper, .Codable, .ExAutoCodable, .Swift_YYModel, .ExAutoCodable:
+        case .Swift, .HandyJSON, .SwiftyJSON, .KakaJSON, .ObjectMapper, .Codable, .ExAutoCodable, .Swift_YYModel:
             return "swift"
         case .ObjC, .YYModel, .MJExtension, .JSONModel:
             return "objectivec"

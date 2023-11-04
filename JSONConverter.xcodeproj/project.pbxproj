@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046173912AF688BE006091AB /* AddProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461738F2AF688BE006091AB /* AddProtocolVC.swift */; };
+		046173922AF688BE006091AB /* AddProtocolVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046173902AF688BE006091AB /* AddProtocolVC.storyboard */; };
+		046173962AF68B48006091AB /* AddDocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046173942AF68B48006091AB /* AddDocVC.swift */; };
+		046173972AF68B48006091AB /* AddDocVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046173952AF68B48006091AB /* AddDocVC.storyboard */; };
 		048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */; };
 		4A926928B4DE1C314D350C1E /* libPods-JSONConverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD32F63385B3C64CFA14DD /* libPods-JSONConverter.a */; };
 		7B2E9EEB2760F3B000151B99 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E9EEA2760F3B000151B99 /* BuilderProtocol.swift */; };
@@ -57,6 +61,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0461738F2AF688BE006091AB /* AddProtocolVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProtocolVC.swift; sourceTree = "<group>"; };
+		046173902AF688BE006091AB /* AddProtocolVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddProtocolVC.storyboard; sourceTree = "<group>"; };
+		046173942AF68B48006091AB /* AddDocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDocVC.swift; sourceTree = "<group>"; };
+		046173952AF68B48006091AB /* AddDocVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddDocVC.storyboard; sourceTree = "<group>"; };
 		048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExAutoCodableBuilder.swift; sourceTree = "<group>"; };
 		05AB8A8E6D68BAB20085C224 /* Pods-JSONConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter.release.xcconfig"; path = "Target Support Files/Pods-JSONConverter/Pods-JSONConverter.release.xcconfig"; sourceTree = "<group>"; };
 		284ACF227ADB7DDD725B0195 /* Pods-JSONConverter-JSONConverterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverter-JSONConverterUITests/Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +142,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0461738E2AF688AD006091AB /* AddProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				046173902AF688BE006091AB /* AddProtocolVC.storyboard */,
+				0461738F2AF688BE006091AB /* AddProtocolVC.swift */,
+			);
+			path = AddProtocol;
+			sourceTree = "<group>";
+		};
+		046173932AF68B3B006091AB /* AddDoc */ = {
+			isa = PBXGroup;
+			children = (
+				046173952AF68B48006091AB /* AddDocVC.storyboard */,
+				046173942AF68B48006091AB /* AddDocVC.swift */,
+			);
+			path = AddDoc;
+			sourceTree = "<group>";
+		};
 		25B861C7B63951D05DE37B14 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +214,8 @@
 		7B45DAEA202A95BE007E8D56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				046173932AF68B3B006091AB /* AddDoc */,
+				0461738E2AF688AD006091AB /* AddProtocol */,
 				7B2E9EE92760F2AE00151B99 /* Builder */,
 				8EE44C762763312A0024D730 /* Common */,
 				7BF1DD2D24FBA3930090B531 /* Controller */,
@@ -386,10 +414,12 @@
 				7B45DB04202A95BF007E8D56 /* MainWindowController.xib in Resources */,
 				8E2A9D0324F9201F00F03DCB /* SettingViewController.xib in Resources */,
 				8E43D13E22E8235A00F52C8E /* UpgradeViewController.xib in Resources */,
+				046173922AF688BE006091AB /* AddProtocolVC.storyboard in Resources */,
 				7B45DB06202A95BF007E8D56 /* Assets.xcassets in Resources */,
 				7B95A32224F95F69000D141B /* Localizable.strings in Resources */,
 				7B45DAFF202A95BF007E8D56 /* MainViewController.xib in Resources */,
 				7B45DB07202A95BF007E8D56 /* MainMenu.xib in Resources */,
+				046173972AF68B48006091AB /* AddDocVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +678,7 @@
 				7B45DB00202A95BF007E8D56 /* MainWindowController.swift in Sources */,
 				8E2A9D0224F9201F00F03DCB /* SettingViewController.swift in Sources */,
 				048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */,
+				046173912AF688BE006091AB /* AddProtocolVC.swift in Sources */,
 				8E1B82972508B22B00E8CA95 /* NSTextView+LineNumberRulerView.swift in Sources */,
 				8E542C2F25130C160053C1E0 /* PanGestureIndicatorView.swift in Sources */,
 				7B41FC9D2827F225007DBD49 /* KakaJSONBuilder.swift in Sources */,
@@ -656,6 +687,7 @@
 				7B9FD5E62764FAA200CFD0A0 /* JavaBuilder.swift in Sources */,
 				7BD7FEDA202AC7C10003AE80 /* Content.swift in Sources */,
 				8E43D13A22E81E6D00F52C8E /* Version.swift in Sources */,
+				046173962AF68B48006091AB /* AddDocVC.swift in Sources */,
 				7B45DB0F202AA572007E8D56 /* File.swift in Sources */,
 				8E1945EA2508A3CE00E7CDCC /* Enums.swift in Sources */,
 				7B7D5AE424FA345C00A54D27 /* FileCacheManager.swift in Sources */,
