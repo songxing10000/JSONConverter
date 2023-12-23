@@ -28,7 +28,8 @@ class JSONProcesser {
                                                ExAutoCodableBuilder(),
                                                KakaJSONBuilder(),
                                                HandyJSONBuilder(),
-                                               SwiftYYModelBuilder()]
+                                               SwiftYYModelBuilder(),
+                                               ArkTSBuilder()]
     
     private var file: File!
     

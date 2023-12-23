@@ -24,6 +24,7 @@ enum LangType: Int {
     case Flutter
     case Java
     case Golang
+    case ArkTS
     
     // the value is highlightr language
     var language: String! {
@@ -38,6 +39,8 @@ enum LangType: Int {
             return "java"
         case .Golang:
             return "golang"
+        case .ArkTS:
+            return "typeScript"
         }
     }
     
@@ -73,11 +76,13 @@ enum LangType: Int {
             return "Java"
         case .Golang:
             return "Golang"
+        case .ArkTS:
+            return "TypeScript"
         }
     }
     
     static func allValues() -> [LangType] {
-        return [.Swift, .HandyJSON, .KakaJSON, .SwiftyJSON, .ObjectMapper, .Codable, .ExAutoCodable, .Swift_YYModel, .ObjC, .YYModel, .MJExtension, .JSONModel, .Flutter, .Java, .Golang]
+        return [.Swift, .HandyJSON, .KakaJSON, .SwiftyJSON, .ObjectMapper, .Codable, .ExAutoCodable, .Swift_YYModel, .ObjC, .YYModel, .MJExtension, .JSONModel, .Flutter, .Java, .Golang, .ArkTS]
     }
     
     var onlyCompatibleClass: Bool {

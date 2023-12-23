@@ -12,6 +12,7 @@
 		046173962AF68B48006091AB /* AddDocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046173942AF68B48006091AB /* AddDocVC.swift */; };
 		046173972AF68B48006091AB /* AddDocVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046173952AF68B48006091AB /* AddDocVC.storyboard */; };
 		048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */; };
+		04AE17142B367BDD008883C5 /* ArkTSBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE17132B367BDD008883C5 /* ArkTSBuilder.swift */; };
 		4A926928B4DE1C314D350C1E /* libPods-JSONConverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD32F63385B3C64CFA14DD /* libPods-JSONConverter.a */; };
 		7B2E9EEB2760F3B000151B99 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E9EEA2760F3B000151B99 /* BuilderProtocol.swift */; };
 		7B2E9EED2760FA3300151B99 /* ObjCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E9EEC2760FA3300151B99 /* ObjCBuilder.swift */; };
@@ -66,6 +67,7 @@
 		046173942AF68B48006091AB /* AddDocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDocVC.swift; sourceTree = "<group>"; };
 		046173952AF68B48006091AB /* AddDocVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddDocVC.storyboard; sourceTree = "<group>"; };
 		048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExAutoCodableBuilder.swift; sourceTree = "<group>"; };
+		04AE17132B367BDD008883C5 /* ArkTSBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArkTSBuilder.swift; sourceTree = "<group>"; };
 		05AB8A8E6D68BAB20085C224 /* Pods-JSONConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter.release.xcconfig"; path = "Target Support Files/Pods-JSONConverter/Pods-JSONConverter.release.xcconfig"; sourceTree = "<group>"; };
 		284ACF227ADB7DDD725B0195 /* Pods-JSONConverter-JSONConverterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverter-JSONConverterUITests/Pods-JSONConverter-JSONConverterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		534B6E6532347C4C75A6C372 /* Pods-JSONConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONConverter.debug.xcconfig"; path = "Target Support Files/Pods-JSONConverter/Pods-JSONConverter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				8EE44C72276301FE0024D730 /* HandyJSONBuilder.swift */,
 				8EE44C742763024D0024D730 /* CodableBuilder.swift */,
 				048EC32A2AE1024F00970857 /* ExAutoCodableBuilder.swift */,
+				04AE17132B367BDD008883C5 /* ArkTSBuilder.swift */,
 				7B9FD5E52764FAA200CFD0A0 /* JavaBuilder.swift */,
 				8E7CE0B0277581DB0044F018 /* GolangBuilder.swift */,
 				7B41FC9C2827F225007DBD49 /* KakaJSONBuilder.swift */,
@@ -677,6 +680,7 @@
 				8E2EE4132761A4F800FABCA0 /* SwiftyJSONBuilder.swift in Sources */,
 				7B45DB00202A95BF007E8D56 /* MainWindowController.swift in Sources */,
 				8E2A9D0224F9201F00F03DCB /* SettingViewController.swift in Sources */,
+				04AE17142B367BDD008883C5 /* ArkTSBuilder.swift in Sources */,
 				048EC32B2AE1024F00970857 /* ExAutoCodableBuilder.swift in Sources */,
 				046173912AF688BE006091AB /* AddProtocolVC.swift in Sources */,
 				8E1B82972508B22B00E8CA95 /* NSTextView+LineNumberRulerView.swift in Sources */,
