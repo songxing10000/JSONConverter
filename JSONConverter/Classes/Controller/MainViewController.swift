@@ -66,8 +66,14 @@ class MainViewController: NSViewController {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(applicationWillTerminateNotificationAction),
                                                name: NSNotification.Name.ApplicationWillTerminateNotification, object: nil)
+        clipsToBoundsTrueFor(view: self.view)
     }
-    
+    private func clipsToBoundsTrueFor(view: NSView) {
+        view.clipsToBounds = true
+        for subView in view.subviews {
+            clipsToBoundsTrueFor(view: subView)
+        }
+    }
     private func checkVersion() {
         UpgradeUtils.newestVersion { (version) in
             guard let tagName = version?.tag_name,
