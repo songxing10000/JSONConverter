@@ -1,4 +1,6 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
  platform :osx, '10.13'
 
 target 'JSONConverter' do
@@ -6,7 +8,7 @@ target 'JSONConverter' do
 #  use_frameworks!
 
   # Pods for JSONConverter
-  pod 'SwiftLint', '~> 0.43.1'
+
   pod 'Highlightr', '~> 2.1.0'
  
 

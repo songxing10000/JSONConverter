@@ -14,21 +14,21 @@ class AddDocVC: NSViewController {
     @IBOutlet weak var m_bottomTextView: NSTextView!
     private lazy var m_topLeftCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
     }()
     private lazy var m_topRightCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
     }()
     private lazy var m_bottomCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
@@ -221,6 +221,15 @@ struct ReplyListResList: ExAutoCodable {
 
 """)
         m_topRightTextView.textStorage?.setAttributedString(attrContent2)
+        clipsToBoundsTrueFor(view: self.view)
+        
+    }
+    
+    private func clipsToBoundsTrueFor(view: NSView) {
+        view.clipsToBounds = true
+        for subView in view.subviews {
+            clipsToBoundsTrueFor(view: subView)
+        }
     }
     private func config(textView: NSTextView?) {
         textView?.isAutomaticQuoteSubstitutionEnabled = false
@@ -232,14 +241,14 @@ struct ReplyListResList: ExAutoCodable {
         DispatchQueue.main.async {
             // 创建一个 NSPasteboard 实例
             let pasteboard = NSPasteboard.general
-
+            
             // 设置要复制的文本内容
             let textToCopy = self.m_bottomTextView.string
-
+            
             // 将文本内容写入粘贴板
             pasteboard.clearContents() // 清空粘贴板上的内容
             pasteboard.setString(textToCopy, forType: .string) // 将文本内容写入粘贴板
-
+            
             // 检查是否成功复制到粘贴板
             if pasteboard.string(forType: .string) != nil {
                 sender.title = "复制成功"

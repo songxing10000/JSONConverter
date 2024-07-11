@@ -13,21 +13,21 @@ class AddProtocolVC: NSViewController {
     @IBOutlet weak var m_topRightTextView: NSTextView!
     private lazy var m_topLeftCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
     }()
     private lazy var m_topRightCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
     }()
     private lazy var m_bottomCodeAttributedString: CodeAttributedString = {
         let storage = CodeAttributedString()
-        storage.highlightr.setTheme(to: "tomorrow-night-bright")
+        storage.highlightr.setTheme(to: "solarized-dark")
         storage.highlightr.theme.codeFont = NSFont(name: "Menlo", size: 14)
         storage.language = "swift"
         return storage
@@ -59,6 +59,14 @@ class LoginUser: NSObject {
 
 """)
         m_topLeftTextView.textStorage?.setAttributedString(attrContent)
+        clipsToBoundsTrueFor(view: self.view)
+
+    }
+    private func clipsToBoundsTrueFor(view: NSView) {
+        view.clipsToBounds = true
+        for subView in view.subviews {
+            clipsToBoundsTrueFor(view: subView)
+        }
     }
     private func config(textView: NSTextView?) {
         textView?.isAutomaticQuoteSubstitutionEnabled = false

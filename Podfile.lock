@@ -1,20 +1,16 @@
 PODS:
   - Highlightr (2.1.0)
-  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Highlightr (~> 2.1.0)
-  - SwiftLint (~> 0.43.1)
 
 SPEC REPOS:
   trunk:
     - Highlightr
-    - SwiftLint
 
 SPEC CHECKSUMS:
   Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
-  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 823e1d08cff849a9685007210ed2382b6cb5f163
+PODFILE CHECKSUM: 787f482348b18d95a511fa502691c9f62d0311d4
 
 COCOAPODS: 1.15.2
